@@ -29,4 +29,30 @@ project/plugins/project/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+*.class
+*.log
+
+.cache
+.env
+.envrc
+.history
+.sdkmanrc
+.lib/
+dist/*
+target/
+lib_managed/
+local.conf
+src_managed/
+project/boot/
+project/plugins/project/
+
+.idea*
+
+# Metals
+.metals/
+.bsp/
+.bloop/
+metals.sbt
+.vscode
+
 # End of https://www.toptal.com/developers/gitignore/api/scala,sbt
